@@ -1,44 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>banana speak</title>
-    <style>
-            textarea{
-                display :block;
-                width: 80 ;
-                height :10vh;
-                 margin: 1 rem;
-                padding: 1 rem;
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=, initial-scale=1.0">
+            <title>Minion Language</title>
+            <link href="style.css" rel="stylesheet" />    
+        </head>
+        <header class="header"> 
+            <div class="header-name">
+                <h1>Minion Language</h1>
+            </div>            
+        </header>
+        <body class="container">            
+                <textarea id="txt-input"placeholder="put your sentence in english"></textarea>
+                <button id="btn-translate">
+                    Click this to know how minion speak this 
+                </button>
 
-            }
-            #output{
-                border: 1px solid black;
-                height: 10vh;
-                margin: 1 rem;
-                padding: 1 rem;
-            }
+                <div id="output-div">
+                    output will come here 👇
+                </div>
 
-    </style>
-    
-</head>
-<body>
-    <h1>talk bnanana</h1>
-    <textarea id="txt-input"
-              placeholder="put your sentence in english">
-    </textarea>
-    <button id="btn-translate">
-        Translate
-    </button>
-    <div style="font-size: larger ;">
-        output will come here 👇
-    </div>
-    <div id="output">
-
-    </div>
-     
-<script src="app.js " type="text/javascript"></script>
-</body>
+                
+            <script src="app.js " type="text/javascript"></script>
+        
+            <footer class="footer container">
+                <div class="footer-header">
+                    Are you a fan of minnion ? Did you know that the gibberish they say is an actual language.
+                    use the translator app to convert text from English to minnion speak or banana language
+                </div>
+            </footer>
+        </body>
 </html>
